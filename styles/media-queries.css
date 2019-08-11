@@ -1,0 +1,120 @@
+@media (max-width: 615px) {
+
+    html {
+        position: relative;
+        min-width: 550px;
+        min-height: 400px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 300px;
+        padding-top: 350px;
+        margin-right: 400px;
+        margin-bottom: 0px;
+    }
+
+    .nav-container > .nav-blood-moon-logo {
+        order: 1;
+        margin: 0;
+        padding: 0;
+        /* width: 30%; */
+        height: 100%;
+        /* margin-right: 600px; */
+    }
+
+    .nav-container > .nav-blood-moon-links {
+        order: 3;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    } 
+
+    .nav-container > .nav-blood-moon-links > .blood-moon-links {
+        width: 30%;
+        margin-left: 200px;
+    }
+
+    .nav-container > .nav-blood-moon-links > .blood-moon-links a:hover {
+        background-color: black;
+        letter-spacing: .3px;
+        border-radius: 78px;
+        padding: 15px 35px;
+    }
+    
+    .nav-container > .header-tech-syms {
+        order: 2;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .nav-container > .header-tech-syms > .code-equals-coffee {
+        margin-right: 200px;
+    }
+
+
+    .imgbck {
+        overflow: hidden;
+        height: 100vw;
+        width: 90vw;
+    }
+
+    .imgbck > .top-section {
+        width: 50vw;
+    }
+
+    .imgbck > .bottom-section {
+        display: none;
+    }
+
+    .imgbck > .bottom-section p {
+        text-align: center;
+    }
+
+    .content-container {
+        width: 90vw;
+    }
+
+    .content-container > .middle-page-content {
+        flex-direction: column;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .content-container > .middle-page-content p{
+        width: 80vw;
+    }
+
+    .projects-grid-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .projects-grid-wrapper > .projects-wrapper {
+        display: grid;
+        grid-template-columns: none;
+        width: 100vw;
+
+    }
+
+
+    .footer-wrapper {
+        margin-top: 1360px;
+    }
+
+    .footer-helper {
+        margin-top: none;
+    }
+
+    .footer-wrapper > .copyright-wrapper {
+        width: 90vw;
+    }
+
+}
